@@ -2,11 +2,12 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>brutaldoom-scythe2</id>
-    <version>2.0.0</version>
+    <version>25.03.2005</version>
     <owners>n3rd4i</owners>
-    <title>brutaldoom-scythe2 (Install)</title>
+    <title>BrutalDoom Scythe2</title>
     <authors>Erik Alm</authors>
-    <packageSourceUrl>https://github.com/n3rd4i/brutaldoom.scythe2.git</packageSourceUrl>
+    <packageSourceUrl>https://github.com/n3rd4i/brutaldoom-scythe2.git</packageSourceUrl>
+
     <iconUrl>https://cdn.statically.io/img/icons.iconarchive.com/icons/3xhumed/mega-games-pack-26/256/Doom-II-2-icon.png</iconUrl>
     <projectUrl>https://www.doomworld.com/idgames/levels/doom2/Ports/megawads/scythe2</projectUrl>
     <licenseUrl>http://www.gamers.org/pub/idgames/levels/doom2/Ports/megawads/scythe2.txt</licenseUrl>
@@ -17,10 +18,15 @@
     <tags>brutaldoom scythe2 doom</tags>
     <summary>brutaldoom maps</summary>
     <description>
-    32 level megawad featuring gothic castles, aztec and egyptian ruins. Gets really hard after level 20, so don't play it on Ultra-Violence.
+
+    32 level megawad featuring gothic castles, aztec and egyptian ruins.
+
+    Gets really hard after level 20, so don't play it on Ultra-Violence.
+
     </description>
     <dependencies>
       <dependency id="brutaldoom" version="21.0.0" />
+      <dependency id="doom2-maps-scythe2" version="25.03.2005" />
     </dependencies>
   </metadata>
   <files>
